@@ -9,8 +9,8 @@
 </template>
 
 <script>
-// import { ref, reactive } from "@vue/reactivity";
-import { useColorPickerGame } from '../composables/useColorPickerGame.js'
+  // import { ref, reactive } from "@vue/reactivity";
+  import { useColorPickerGame } from '../composables/useColorPickerGame.js'
 export default {
   setup() {
     const { colors, message, matchColor } = useColorPickerGame()
